@@ -21,7 +21,7 @@ if  x ==  1 :
 	os.system("ifconfig | grep ether")
 
 elif x==2 :
-	print "total ram is:"
+	print "RAM size is:"
         os.system("cat /proc/meminfo | grep MemTotal")
 	print " "
 	print "total no of cpu cores is:"
